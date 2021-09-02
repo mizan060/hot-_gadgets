@@ -46,4 +46,17 @@
     background-color:blue;
     background-image: linear-gradient(120deg, orange, yellow);
     border-radius: 10px;
-} 
+    margin-bottom: 50px;
+}
+.img-thumbnail{
+    border: none;
+    box-shadow: 3px 3px 50px lightgray;
+    border-radius: 55px 0 15px 0;
+}
+@media only screen and (max-width: 575px){
+    .cata-img{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+    }
+}
